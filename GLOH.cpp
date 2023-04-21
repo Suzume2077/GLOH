@@ -78,7 +78,7 @@ namespace A_A {
 	}
 	int GLOH_Impl::descriptorSize() const
 	{
-		return 128;
+		return (2*8+1)*8;
 	}
 	int GLOH_Impl::descriptorType() const
 	{
